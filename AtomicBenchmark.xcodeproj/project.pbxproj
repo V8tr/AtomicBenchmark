@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		D7DC644120E653E900171A54 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DC644020E653E900171A54 /* main.swift */; };
+		D7DC644A20E6796000171A54 /* Benchmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DC644920E6796000171A54 /* Benchmark.swift */; };
+		D7DC644C20E6798300171A54 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DC644B20E6798300171A54 /* Types.swift */; };
+		D7DC644E20E679C000171A54 /* Locks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DC644D20E679C000171A54 /* Locks.swift */; };
+		D7DC645020E67A0D00171A54 /* GetterSetterBenchmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DC644F20E67A0D00171A54 /* GetterSetterBenchmark.swift */; };
+		D7DC645220E67C6900171A54 /* Samples.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DC645120E67C6900171A54 /* Samples.swift */; };
+		D7DC645420E67EDF00171A54 /* ReportRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DC645320E67EDF00171A54 /* ReportRenderer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,12 @@
 /* Begin PBXFileReference section */
 		D7DC643D20E653E900171A54 /* AtomicBenchmark */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AtomicBenchmark; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7DC644020E653E900171A54 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D7DC644920E6796000171A54 /* Benchmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benchmark.swift; sourceTree = "<group>"; };
+		D7DC644B20E6798300171A54 /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		D7DC644D20E679C000171A54 /* Locks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locks.swift; sourceTree = "<group>"; };
+		D7DC644F20E67A0D00171A54 /* GetterSetterBenchmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetterSetterBenchmark.swift; sourceTree = "<group>"; };
+		D7DC645120E67C6900171A54 /* Samples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Samples.swift; sourceTree = "<group>"; };
+		D7DC645320E67EDF00171A54 /* ReportRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportRenderer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +69,13 @@
 		D7DC643F20E653E900171A54 /* AtomicBenchmark */ = {
 			isa = PBXGroup;
 			children = (
+				D7DC644920E6796000171A54 /* Benchmark.swift */,
+				D7DC644F20E67A0D00171A54 /* GetterSetterBenchmark.swift */,
+				D7DC644D20E679C000171A54 /* Locks.swift */,
 				D7DC644020E653E900171A54 /* main.swift */,
+				D7DC645320E67EDF00171A54 /* ReportRenderer.swift */,
+				D7DC645120E67C6900171A54 /* Samples.swift */,
+				D7DC644B20E6798300171A54 /* Types.swift */,
 			);
 			path = AtomicBenchmark;
 			sourceTree = "<group>";
@@ -120,6 +138,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7DC644120E653E900171A54 /* main.swift in Sources */,
+				D7DC645220E67C6900171A54 /* Samples.swift in Sources */,
+				D7DC645420E67EDF00171A54 /* ReportRenderer.swift in Sources */,
+				D7DC645020E67A0D00171A54 /* GetterSetterBenchmark.swift in Sources */,
+				D7DC644A20E6796000171A54 /* Benchmark.swift in Sources */,
+				D7DC644E20E679C000171A54 /* Locks.swift in Sources */,
+				D7DC644C20E6798300171A54 /* Types.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
