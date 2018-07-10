@@ -66,7 +66,11 @@ extension DispatchQueueSample: Sample {
 }
 
 class OperationsQueueSample {
-	private let queue = OperationQueue()
+	private let queue: OperationQueue = {
+		var q = OperationQueue()
+		q.maxConcurrentOperationCount = 1
+		return q
+	}()
 	private var underlyingFoo = 0
 
 	var foo: Int {
